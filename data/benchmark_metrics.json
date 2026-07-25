@@ -1,0 +1,154 @@
+{
+  "generated": "2026-07-23",
+  "method": "Public Trustpilot reviews, sampled across all star bands; per-rating-band metrics.",
+  "brands": {
+    "Exness": {
+      "domain": "exness.com",
+      "trustpilot_total": 30113,
+      "sample": 898,
+      "response_rate_pct_by_star": {
+        "1": 77.6,
+        "2": 93.0,
+        "3": 87.8,
+        "4": 1.1,
+        "5": 0.0
+      },
+      "median_reply_hours": 43.4,
+      "reply_type_pct": {
+        "redirect": 51.0,
+        "regulator": 1.1,
+        "substantive": 47.9
+      },
+      "organic_positive_pct": 9.5,
+      "top_complaint_features_pct": {
+        "withdrawal": 27.0,
+        "deposit": 23.8,
+        "platform_execution": 22.0,
+        "scam_fraud": 14.7,
+        "verification_kyc": 13.8,
+        "support": 10.6
+      },
+      "top_complaint_countries": [
+        "IN",
+        "PK",
+        "AE",
+        "ZA",
+        "BD",
+        "NG",
+        "UZ",
+        "US"
+      ]
+    },
+    "XM": {
+      "domain": "xm.com",
+      "trustpilot_total": 3149,
+      "sample": 728,
+      "response_rate_pct_by_star": {
+        "1": 79.5,
+        "2": 91.2,
+        "3": 92.0,
+        "4": 100.0,
+        "5": 100.0
+      },
+      "median_reply_hours": 24.8,
+      "reply_type_pct": {
+        "substantive": 71.0,
+        "regulator": 5.9,
+        "redirect": 23.0
+      },
+      "organic_positive_pct": 7.8,
+      "top_complaint_features_pct": {
+        "deposit": 45.5,
+        "withdrawal": 36.6,
+        "scam_fraud": 29.9,
+        "support": 24.3,
+        "payments": 22.8,
+        "verification_kyc": 19.4
+      },
+      "top_complaint_countries": [
+        "IN",
+        "PK",
+        "ZA",
+        "AE",
+        "MY",
+        "TR",
+        "EG",
+        "SG"
+      ]
+    },
+    "eToro": {
+      "domain": "etoro.com",
+      "trustpilot_total": 31863,
+      "sample": 920,
+      "response_rate_pct_by_star": {
+        "1": 100.0,
+        "2": 91.2,
+        "3": 85.6,
+        "4": 100.0,
+        "5": 100.0
+      },
+      "median_reply_hours": 14.1,
+      "reply_type_pct": {
+        "substantive": 79.0,
+        "redirect": 6.5,
+        "regulator": 14.5
+      },
+      "organic_positive_pct": 26.4,
+      "top_complaint_features_pct": {
+        "support": 30.4,
+        "withdrawal": 21.2,
+        "deposit": 16.1,
+        "payments": 15.6,
+        "verification_kyc": 15.1,
+        "scam_fraud": 14.5
+      },
+      "top_complaint_countries": [
+        "GB",
+        "DK",
+        "GR",
+        "AU",
+        "NL",
+        "IE",
+        "AE",
+        "ES"
+      ]
+    },
+    "Plus500": {
+      "domain": "plus500.com",
+      "trustpilot_total": 19571,
+      "sample": 920,
+      "response_rate_pct_by_star": {
+        "1": 99.4,
+        "2": 85.6,
+        "3": 98.9,
+        "4": 97.8,
+        "5": 91.2
+      },
+      "median_reply_hours": 17.4,
+      "reply_type_pct": {
+        "redirect": 25.3,
+        "regulator": 6.9,
+        "substantive": 67.8
+      },
+      "organic_positive_pct": 1.6,
+      "top_complaint_features_pct": {
+        "withdrawal": 20.2,
+        "deposit": 9.4,
+        "scam_fraud": 9.1,
+        "support": 8.0,
+        "platform_execution": 6.9,
+        "verification_kyc": 6.4
+      },
+      "top_complaint_countries": [
+        "GB",
+        "AU",
+        "US",
+        "AE",
+        "ZA",
+        "NL",
+        "IL",
+        "IT"
+      ]
+    }
+  }
+}

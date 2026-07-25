@@ -1,0 +1,22 @@
+# Review data is not redistributed. Both the raw dumps and the built dataset are
+# regenerated locally by the pipeline (see README, "Reproduction").
+data/broker_reviews_clean.csv
+data/*_trustpilot.json
+data/exness.json
+data/xm.json
+data/etoro.json
+data/plus500.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
