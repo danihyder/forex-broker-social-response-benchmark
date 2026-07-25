@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 collect_trustpilot.py — Trustpilot review + company-reply collector for the
-CFD/forex broker social-response benchmark.
+retail CFD broker social-response benchmark.
 
 WHY PLAYWRIGHT: Trustpilot fronts its pages with a JavaScript bot-challenge
 (Cloudflare-style). A plain urllib/requests GET returns HTTP 403. A real

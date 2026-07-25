@@ -1,4 +1,4 @@
-# Forex Brokers Social Response Benchmark: Full Report
+# Retail CFD Brokers Social Response Benchmark: Full Report
 
 This is an independent analysis, not affiliated with, commissioned by, or endorsed by any company
 named in it. It reports observable response behaviour on a public review platform. It does not
@@ -7,7 +7,7 @@ allegation against one.
 
 ## Scope
 
-The study covers four retail forex and CFD brokers: Exness, XM, eToro and Plus500. The sample
+The study covers four retail CFD brokers: Exness, XM, eToro and Plus500. The sample
 comprises 3,466 English-language Trustpilot reviews published between February 2018 and July 2026:
 Exness 898, XM 728, eToro 920 and Plus500 920.
 

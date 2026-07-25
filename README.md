@@ -1,6 +1,6 @@
-# Forex Brokers Social Response Benchmark
+# Retail CFD Brokers Social Response Benchmark
 
-A comparative study of how four retail forex and CFD brokers handle public customer complaints.
+A comparative study of how four retail CFD brokers handle public customer complaints.
 The analysis covers 3,466 public Trustpilot reviews of **Exness, XM, eToro and Plus500**, together
 with the brokers' own public replies, and measures response rate, response speed, reply type,
 complaint composition, review provenance and complaint geography.

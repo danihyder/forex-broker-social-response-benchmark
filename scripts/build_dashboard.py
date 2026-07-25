@@ -97,7 +97,7 @@ TEMPLATE = r"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Forex Brokers Social Response Benchmark</title>
+<title>Retail CFD Brokers Social Response Benchmark</title>
 <style>
 :root{
   --bg:#f6f7f9; --panel:#ffffff; --fg:#1c2430; --muted:#5b6675; --line:#e4e8ee;
@@ -171,9 +171,9 @@ svg{width:100%;height:auto;display:block;color:var(--fg)}
 <body>
 <div class="themeToggle" id="themeToggle">◐ theme</div>
 <div class="wrap">
-  <h1>Forex Brokers Social Response Benchmark</h1>
+  <h1>Retail CFD Brokers Social Response Benchmark</h1>
   <p class="sub" id="subline"></p>
-  <p class="lead">This benchmark measures how four retail forex brokers handled public customer
+  <p class="lead">This benchmark measures how four retail CFD brokers handled public customer
   complaints on Trustpilot. It reports response rate and speed, reply type, complaint topics, review
   provenance, and complaint geography. All figures derive from public reviews and the brokers' own
   public replies, and are recalculated under the filters below.</p>
