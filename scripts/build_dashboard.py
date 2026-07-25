@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-build_dashboard.py — generate the self-contained interactive benchmark dashboard
-from data/broker_reviews_clean.csv.
+build_dashboard.py — generate the self-contained interactive benchmark dashboard.
 
 Output: dashboard/index.html (no external dependencies, CSP-safe, theme-aware).
 Charts are hand-rolled SVG + vanilla JS so the file runs anywhere and publishes
