@@ -2,9 +2,6 @@
 """
 prepare_dataset.py — turn raw collected reviews into the analysis-ready dataset.
 
-Reads one or more JSON files produced by collect_trustpilot.py and writes
-data/broker_reviews_clean.csv, the single input used by every other script.
-
 What it adds to each review:
   features        complaint topics, from keyword dictionaries (pipe-separated,
                   "other" when nothing matches; a review can carry several)
