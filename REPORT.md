@@ -69,29 +69,29 @@ external dispute body.
 | Redirect to private channel | 51.0% | 23.0% | 6.5% | 25.3% |
 | Regulator or ombudsman referral | 1.1% | 5.9% | 14.5% | 6.9% |
 
-Redirects frequently reflect regulatory constraint rather than avoidance, as a regulated broker
-generally cannot discuss an individual account or an open dispute publicly. Reply type is therefore
-reported separately from reply rate.
+A redirect often reflects a regulatory constraint, as a regulated broker generally cannot discuss an
+individual account or an open dispute publicly. Reply type is therefore reported separately from
+reply rate.
 
 ## Review provenance
 
 The share of positive reviews (4-5 star) arriving organically rather than through a company
 invitation was 26.4% at eToro, 9.5% at Exness, 7.8% at XM and 1.6% at Plus500. Complaints arrived
-organically for every broker. Published star ratings consequently reflect review-solicitation
-practice in addition to customer sentiment.
+organically for every broker. A published star rating therefore reflects how actively a company invites
+reviews as well as the experience of those who leave them.
 
 ## Complaint topics
 
 The following shows the share of each broker's 1-2 star reviews mentioning each topic. A review may
 carry more than one topic.
 
-- **Exness:** withdrawals 27%, deposits 24%, platform and execution 22%, scam or fraud claims 15%,
+- **Exness:** withdrawals 27%, deposits 24%, platform and execution 22%, scam and fraud claims 15%,
   verification 14%.
-- **XM:** deposits 46%, withdrawals 37%, scam or fraud claims 30%, support 24%, payment rails 23%,
+- **XM:** deposits 46%, withdrawals 37%, scam and fraud claims 30%, support 24%, payment rails 23%,
   verification 19%.
 - **eToro:** support responsiveness 30%, withdrawals 21%, deposits 16%, payment rails 16%,
-  verification 15%, scam or fraud claims 15%.
-- **Plus500:** withdrawals 20%, deposits 9%, scam or fraud claims 9%, support 8%, platform and
+  verification 15%, scam and fraud claims 15%.
+- **Plus500:** withdrawals 20%, deposits 9%, scam and fraud claims 9%, support 8%, platform and
   execution 7%.
 
 Money movement, covering withdrawals and deposits, led the complaint mix for every broker.
@@ -105,29 +105,30 @@ Countries contributing the most complaints, by broker:
 - **eToro:** United Kingdom, Denmark, Greece, Australia, Netherlands, Ireland.
 - **Plus500:** United Kingdom, Australia, United States, UAE, South Africa, Netherlands.
 
-## Distinctive complaint language
+## Distinctive complaint phrases
 
 Ranking complaint phrases by raw frequency returns the same generic terms for every broker, such as
 "customer service" and "trading account". Ranking instead by distinctiveness, meaning how much more
 frequently a phrase occurs for one broker than for the other three combined, isolates the language
 specific to each. Phrases below occur in at least five reviews.
 
-These are the words reviewers themselves used. They show what customers complained about and how
-they described it. They are not verified claims about any broker's conduct.
+These are the words reviewers themselves used. They show what customers wrote about and how they
+phrased it. They are not verified claims about any broker's conduct. The lists below are extracts
+from the ranking; the complete output is in `data/complaint_phrases.json`.
 
 - **eToro:** cash isa (34 reviews, 143x), isa account (9), open cash (7), non existent (6), hidden
   fees (6). Reviewers referring to the UK cash ISA product and to account opening.
 - **XM:** deposited inr (10 reviews, 65x), deposit inr (8), credited trading (8), successfully
   debited (7), deposit scam (7), bank wire (6). Reviewers describing rupee deposits taken from their
   bank account but, in their account, not appearing in the trading account.
-- **Exness:** million usd (12 reviews, 75x), margin levels (6), manipulates margin (6), financial
-  commission (5), deposited million (5). Reviewers describing margin and stop-out disputes, and
-  referring to escalation to the Financial Commission.
+- **Exness:** million usd (12 reviews, 75x), margin levels (6), financial commission (5), deposited
+  million (5), live support (5). Reviewers referring to margin levels, to large deposit amounts, and
+  to escalation to the Financial Commission.
 - **Plus500:** high spread (10 reviews), spread high (9), open positions (9), send money (6).
   Reviewers referring to spread pricing and position handling.
 
-## Review length
+## Review length by rating
 
 Average review length declined with each additional star: 112 words at 1 star, 75 at 2 stars, 48 at
-3 stars, 28 at 4 stars and 21 at 5 stars. Dissatisfied customers supplied substantially more detail
-than satisfied ones.
+3 stars, 28 at 4 stars and 21 at 5 stars. Reviews at the lower ratings carry substantially more detail
+than those at the higher ratings.

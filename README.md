@@ -22,7 +22,7 @@ The full written report is in [REPORT.md](REPORT.md).
 ## Summary of findings
 
 **1. Two distinct engagement models are visible in the data.**
-Exness replied to 78-93% of its 1-3 star reviews but to very little of its praise (4 star: 1.1%,
+Exness replied to 78-93% of its 1-3 star reviews and to very little of its praise (4 star: 1.1%,
 5 star: 0%), concentrating response effort on negative feedback. XM, eToro and Plus500 replied
 across every star band, including 88-100% of positive reviews.
 
@@ -48,22 +48,22 @@ rate.
 **4. Most positive reviews were invited rather than spontaneous.**
 The share of 4-5 star reviews arriving organically rather than through a company invitation was
 26.4% at eToro, 9.5% at Exness, 7.8% at XM and 1.6% at Plus500. Complaints arrived organically for
-every broker. A public star rating therefore reflects review-solicitation strategy alongside
-customer sentiment.
+every broker. A published star rating therefore reflects how actively a company invites
+reviews as well as the experience of those who leave them.
 
-**5. Complaint composition differs by broker.**
+**5. Complaint topics differ by broker.**
 Share of each broker's 1-2 star reviews mentioning each topic:
 
 | Broker | Leading complaint topics |
 |---|---|
-| XM | Deposits 46%, Withdrawals 37%, Scam/fraud claims 30%, Support 24% |
-| Exness | Withdrawals 27%, Deposits 24%, Platform/execution 22%, Scam/fraud claims 15% |
+| XM | Deposits 46%, Withdrawals 37%, Scam and fraud claims 30%, Support 24% |
+| Exness | Withdrawals 27%, Deposits 24%, Platform/execution 22%, Scam and fraud claims 15% |
 | eToro | Support responsiveness 30%, Withdrawals 21%, Deposits 16%, Payment rails 16% |
-| Plus500 | Withdrawals 20%, Deposits 9%, Scam/fraud claims 9%, Support 8% |
+| Plus500 | Withdrawals 20%, Deposits 9%, Scam and fraud claims 9%, Support 8% |
 
 Money movement, meaning withdrawals and deposits, led for all four brokers.
 
-**6. Complaint language differs sharply between brokers.**
+**6. Distinctive complaint phrases differ by broker.**
 Ranking the phrases reviewers used by how much more often they appear for one broker than the other
 three surfaces distinct subject matter: `cash isa` and `isa account` at eToro (a UK tax-wrapper
 product), `deposited inr` and `successfully debited` at XM, `margin levels` and `financial
@@ -85,7 +85,7 @@ embedded and the charts are rendered as SVG in vanilla JavaScript.
 
 The dashboard presents six headline metrics, each annotated with its definition, alongside eight
 panels covering response rate by rating, response speed, reply type, complaint topics, review
-provenance, complaint geography, review length and distinctive complaint phrasing. Filters for
+provenance, complaint geography, review length and distinctive complaint phrases. Filters for
 broker, rating, complaint topic, review source and time period recalculate every metric and panel.
 
 ---
@@ -153,17 +153,12 @@ rather than accepted on trust.
     └── analyze_trustpilot.py       Command-line summary of response metrics
 ```
 
-The review dataset itself is not redistributed here. Trustpilot's review content belongs to
-Trustpilot and its reviewers, so this repository publishes the pipeline that builds the dataset and
-the aggregate results derived from it, rather than the reviews. Running the three steps below
-reproduces the dataset locally as `data/broker_reviews_clean.csv` with these columns:
+Running the pipeline below builds the analysis dataset locally as
+`data/broker_reviews_clean.csv`, with these columns:
 
 `brand`, `rating`, `month`, `pub_date`, `source`, `is_organic`, `country`, `language`, `verified`,
 `replied`, `response_hours`, `reply_type`, `is_template`, `word_count`, `exclaim`, `features`,
 `title`, `text`.
-
-The published dashboard does not depend on it: `dashboard/index.html` is pre-built and carries only
-aggregate values.
 
 ---
 
@@ -193,9 +188,9 @@ python scripts/build_dashboard.py
 
 All source material is public: reviews readable on Trustpilot without an account, and the brokers'
 own public replies. No private or authenticated data is used and no individual reviewer is
-identified. The review content itself is not redistributed in this repository; only aggregate
-results and the code that produces them are published. Figures represent a snapshot taken in July
-2026 and will drift as the brokers accumulate further reviews.
+identified. The review content belongs to Trustpilot and its reviewers, so this repository publishes
+the code and the aggregate results rather than the reviews themselves. Figures represent a snapshot
+taken in July 2026 and will drift as the brokers accumulate further reviews.
 
 ## License
 
