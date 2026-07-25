@@ -9,7 +9,9 @@ Customer service quality in this sector is usually described in marketing terms 
 quantified. Public review platforms provide one channel where it can be observed directly, because
 both the complaint and the broker's reply carry timestamps and are visible to anyone.
 
-![Dashboard](dashboard/preview.png)
+**[Interactive dashboard](https://danihyder.github.io/forex-broker-social-response-benchmark/dashboard/)**
+
+[![Dashboard](dashboard/preview.png)](https://danihyder.github.io/forex-broker-social-response-benchmark/dashboard/)
 
 This is an independent analysis, not affiliated with, commissioned by, or endorsed by any company
 named in it. It describes observable response behaviour on a public review platform and does not
@@ -79,9 +81,11 @@ Average length fell with each additional star: 112 words at 1 star, 75 at 2, 48 
 
 ## Interactive dashboard
 
-The findings above are presented interactively in [`dashboard/index.html`](dashboard/index.html),
-a single self-contained file that opens in any browser without a server or build step. The data is
-embedded and the charts are rendered as SVG in vanilla JavaScript.
+The findings above are presented interactively in the
+[live dashboard](https://danihyder.github.io/forex-broker-social-response-benchmark/dashboard/), built from
+[`dashboard/index.html`](dashboard/index.html): a single self-contained file that also opens
+locally in any browser without a server or build step. The data is embedded and the charts are
+rendered as SVG in vanilla JavaScript.
 
 The dashboard presents six headline metrics, each annotated with its definition, alongside eight
 panels covering response rate by rating, response speed, reply type, complaint topics, review
